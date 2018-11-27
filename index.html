@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bce o cactusah</title>
+		<meta name="author" content="Dobrovoimaster" />
+        <meta name="keywords" content="CSS, CSS3, модальное окно, всплывающие окна" />
+        <meta name="description" content="Как с помощью CSS3, без использования javascript и изображений, создать всплывающие модальные окна" />
+       <meta name="robots" content="all" />
+        <link href="mai.css" rel="stylesheet">
+		<!-- стили  страницы -->
+	<link rel="stylesheet" href="page.css" rel="stylesheet">
+	<!-- стили модального окна -->
+	<link rel="stylesheet" href="modal.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="mainsl.css">
+	
+	<link rel="stylesheet" href="anim.css">
+	
+	<!--link rel="stylesheet" href="odl.css"-->
+	
+	<style>
+    body {
+    background: url(image/kaktys_fon.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+  .ñòèëü1 {color: #FF0000}
+    .ñòèëü2 {color: #FF0033}
+    </style>
+	<style>
+    #box {
+      border: 1px solid grey;
+      height: 312px;
+      width: 312px;
+    }
+
+    #box input {
+      border: none;
+      float: left;
+      font-size: 70px;
+      height: 100px;
+      margin: 2px;
+      width: 100px;
+    }
+    
+    #resetButton {
+      border: 1px solid grey;
+      font-size: 20px;
+      height: 100px;
+      width: 314px;
+    }
+  </style>
+  <title>9104 &#1488;&#1500;&#1499;&#1505; &#1489;&#1494;&#1497;&#1511;&#1500;&#1493;</title>
+	
+	
+    </head>
+    <body>
+	    <div class="container">
+		 <!-- блок кнопок на вызов модальных окон -->
+        <div style="text-align: center;">
+		     <ul class="nav">
+            <li><a href="#" class="button button-green">Главная</a></li>
+            <li><a href="blog.html" class="button button-red">Блог</a></li>
+            <li><a href="#contakt" class="button button-blue">Контакты</a></li>
+            <li><a href="#proekt" class="button button-orange">О сайте</a></li>
+          </ul>
+		</div>
+		
+		
+		
+		<!-- Модальное окно контакт -->
+        <a href="#x" class="overlay" id="contakt"></a>
+        <div class="popup">
+            <div class="pic-left">
+                <img src="image/kaktus2.jpg" alt="Практический курс кактусовода" /></a>
+            </div>
+            <h2>Уважаемые друзья!</h2>
+			<p>Обращаю Ваше внимание, что автор в курсе обучения приобретал навіки по созданию интеративніх страниц</p>
+			<h3>« Практика резиновой верстки ...»</h3>
+            <p>"Практика для новичка и не только ...  верстки сайта" </p>
+			Не убивая время. Просто взять и сделать!
+			<p style="text-align: center;">
+				
+				<a href="tel: +00(100)123-45-67">+00(100)123-45-67</a>
+                <a href="mailto: example@gmail.com">Моё МылО</a>
+                 <a href="skype: someskype?call">someskype</a>
+				
+			</p>
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <!-- Модальное окно о сайте -->
+        <a href="#x" class="overlay" id="proekt"></a>
+    <div class="popup">
+            <div class="pic-right">
+		       <img src="http://dbmast.ru/img/afroseo.jpg" />
+            </div>
+            <h2>Доброго дня или ночи!</h2>
+			<p>
+			Цели и стратегии работы всегда одна ити вперед и не останавливаться на достигнутом.
+			Продолжается планомерное вгрызание в сообщество блогеров, так сказать, отвоевывание места под солнцем. 
+			<p>
+			При написании статей использовались как свои наработки, так и работы сторонних авторов.
+			<p>
+			По всем вопросам пишите мне через <a href="http://Google.com">контактную форму</a>, или оставляйте вопросы в комментариях к записям, постараюсь ни один вопрос не оставить без ответа.
+			
+            <p style="text-align: right;">
+                <span style="color: #767676;">(Мои лудшие позитивные пожелания всем 2018 г.)</span>
+			</p>
+            <a class="close" title="Закрыть" href="#close"></a>
+    </div>
+		 
+		 <p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<table width=86% border="2">
+              <tr>
+                <td width="50%"></div></td>
+				
+				
+    <div id="slider" class="slider">
+    
+          <div align="center">
+            <ol class="slider__indicators">
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+              <li class="slider__indicator" data-slide-to="3"></li>
+            </ol>
+          </div>
+      <div class="slider__items">
+      <div class="slider__item slider__item_active">
+	    <img src="image/sld1.jpg" alt="c2">      </div>
+      <div class="slider__item">
+        <img src="image/sld2.jpg" alt="c1">      </div>
+      <div class="slider__item">
+        <img src="image/sld3.jpg" alt="c1">      </div>
+      <div class="slider__item">
+        <img src="image/sld4.jpg" alt="c1">      </div>
+	   <div class="slider__item">
+        <img src="image/ka5.jpg" alt="c1">      </div>
+	   <div class="slider__item">
+        <img src="image/sld5.jpg" alt="c1">      </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button"></a>
+    <a class="slider__control slider__control_next" href="#" role="button"></a>  </div>
+  
+				
+              </tr>
+            </table>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			
+			
+			<div class="container-fluid" id="game">
+			 <div id="box">
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <input type="button" onClick="onClick(this)" />
+    <table width="200" border="1">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+			 </div>
+  <input type="button" id="resetButton" onClick="reset()" value="NEW GAME" />
+  
+			</div>
+	
+	<!--div class="container-fluid"">
+  <div id="clock">
+    <div class="clock-inner">
+      <div class="clock-minutes"></div>
+    <ul class="clock-numbers">
+                        <li>XII</li>
+                        <li>III</li>
+                        <li>VI</li>
+                        <li>IX</li>
+                    </ul>
+				</div>
+  </div>
+  </div>
+  <h3>hover to pause</h3-->
+ 
+
+			
+			
+            <div ALIGN="centr">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="mail" class="col-sm-2 control-label ñòèëü1">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="mail" placeholder="Email">
+                    <div class="form-group">
+                      <label for="pass" class="col-sm-2 control-label ñòèëü2">Пароль</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pass" placeholder="Пароль">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                          <label>
+                          <input type="checkbox"> 
+                          Запомнить меня              </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success">Подтвердить</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+    </div>
+		<script src="gam.js">  </script>
+		<script src="mainsl.js"></script>
+</body>
+</html>
